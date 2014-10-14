@@ -176,7 +176,18 @@
 			{
 				background: #252122;
 			}
-
+            .button.alt2
+			{
+				background: #48489a;
+			}
+            .button.alt3
+			{
+				background: #9dac50;
+			}
+            .button.alt4
+			{
+				background: #ac5e50;
+			}
 				.button.alt:hover
 				{
 					background: #353132;
@@ -199,6 +210,23 @@
 					top: 0.05em;
 					margin-right: 0.75em;
 				}
+				.buttonsmall
+		{
+			display: inline-block;
+			text-decoration: none;
+			cursor: pointer;
+			border: 0;
+			border-radius: 5px;
+			background: #45d523;
+			color: #fff !important;
+			font-weight: 700;
+			outline: 0;
+			-moz-transition: background-color .25s ease-in-out;
+			-webkit-transition: background-color .25s ease-in-out;
+			-o-transition: background-color .25s ease-in-out;
+			-ms-transition: background-color .25s ease-in-out;
+			transition: background-color .25s ease-in-out;
+		}
 
 	/* Icon */
 
