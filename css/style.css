@@ -29,6 +29,32 @@
 		background-image: url('images/bg02.png');
 		color: #5d5d5d;
 	}
+    div.img {
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid #0000ff;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+div.img img {
+    display: inline;
+    margin: 5px;
+    border: 1px solid #ffffff;
+}
+
+div.img a:hover img {
+    border:1px solid #0000ff;
+}
+
+div.desc {
+    text-align: center;
+    font-weight: normal;
+    width: 120px;
+    margin: 5px;
+}
 
 	strong, b
 	{
@@ -161,6 +187,9 @@
 			-ms-transition: background-color .25s ease-in-out;
 			transition: background-color .25s ease-in-out;
 		}
+        .link_color{
+         color: #5970b1;   
+        }
 
 			.button:hover
 			{
@@ -187,6 +216,10 @@
             .button.alt4
 			{
 				background: #ac5e50;
+			}
+                .button.alt5
+			{
+				background: #25b7d9;
 			}
 				.button.alt:hover
 				{
